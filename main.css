@@ -1,0 +1,139 @@
+* {
+    background-color: #222228;
+    color: #fff;
+    font-family: 'PixelOperatorHB8Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12.5px;
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+}
+
+p {
+    font-size: 12px;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 98vw;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+}
+
+#credits {
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#credits > h2 {
+    text-align: center;
+}
+
+#gameBox {
+    max-width: 600px;
+    height: 370px;
+    background-color: #333335cc;
+    border-radius: 8px;
+    box-shadow: 0 0 40px 5px #a8605daa;
+    margin: 25px;
+    padding: 15px;
+    border: #a8605daa solid 2px;
+}
+
+#download {
+    background-color: #60ae7b;
+    width: 250px;
+    height: 65px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-shadow: #f9ea9f 1px 0 7px;
+    transition: ease-in-out 0.2s;
+    opacity: 1;
+}
+
+#download:hover {
+    translate: 0 -8px;
+    opacity: 0.96;
+    transform: scale(1.01, 1.01);
+}
+
+#download:active {
+    opacity: 0.84;
+    transform: scale(1.02, 1.02);
+    translate: 0 -9px;
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main, footer{
+    background-color: #a8605d;
+    min-height: 30px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#a {
+    text-decoration: none;
+    background-color: #a8605d;
+}
+
+#a:hover {
+    text-decoration: underline;
+}
+
+ul > a > li {
+    background-color: #a8605d;
+    padding: 10px 20px 10px 20px; 
+    margin: 10px 0 10px 0;   
+    border-right: white dotted 3px;
+}
+
+ul > a:first-child > li {
+    border-left: white dotted 3px;
+}
+
+ul {
+    background-color: #a8605d;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-bottom: 0;
+    padding: 0 250px 0 250px;
+}
+
+#left2 {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+    max-width: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin: 24px 0 20px 0;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h6 {
+    text-decoration: none;
+    font-size: 10px;
+    color: #eeec;
+}
